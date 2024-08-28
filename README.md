@@ -5,4 +5,4 @@ git clone https://github.com/Str44ng33/Calculadora-de-formas-geometricas-em-area
 cd Calculadora-de-formas-geometricas-em-area-quadrada
 python3 arq.py
 ```
-(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBxNTdtOTBodG04MnNpYnBmOGNxMWlxc2d4aDlocXNsdTM5enJvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.webp)
+![Estilo Hacker](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBxNTdtOTBodG04MnNpYnBmOGNxMWlxc2d4aDlocXNsdTM5enJvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.webp)
