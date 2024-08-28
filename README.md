@@ -3,6 +3,7 @@ eu vou melhorar esse codigo ainda kkkkkk ele tá muito cagado kkkkkk, bem resumi
 ```bash
 git clone https://github.com/Str44ng33/Calculadora-de-formas-geometricas-em-area-quadrada
 cd Calculadora-de-formas-geometricas-em-area-quadrada
+python3 -m venv terminal && source terminal/bin/activate && pip install colorama
 python3 arq.py
 ```
 ![Estilo Hacker](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBxNTdtOTBodG04MnNpYnBmOGNxMWlxc2d4aDlocXNsdTM5enJvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.webp)
