@@ -1,10 +1,11 @@
-print ('este programa que fiz na escola enquanto tava entendiado calcula a area quadrada de uma forma geometrica com as medidas de cm, metros, km, etc...')
-print ('escolha oque você quer calcular a area quadrada de uma forma seguinte;')
-print ('1.triangulo')
-print ('2. trapezio')
-print ('3. circulo')
+from colorama import init, Fore
+print (Fore.GREEN + 'este programa que fiz na escola enquanto tava entendiado calcula a area quadrada de uma forma geometrica com as medidas de cm, metros, km, etc...')
+print (Fore.RED + 'escolha oque você quer calcular a area quadrada de uma forma seguinte;')
+print (Fore.MAGENTA + '1.triangulo')
+print (Fore.CYAN + '2. trapezio')
+print (Fore.YELLOW + '3. circulo')
 #projeto matemática que tive ideia no meu colégio ainda kkkkkkk
-print ('4. coroa circular')
+print (Fore.BLUE + '4. coroa circular')
 cu = int(input('>>>: '))
 print('qual a unidade de medida deste calculo??')
 print('1. CM')
@@ -23,7 +24,7 @@ if cu == 1:
     print (f'ok a base é {base} qual a altura???')
     altura = int(input('>>>: '))
     tria = (base * altura) / 2
-    print (f'a area quadradra é: {tria}{unidade} quadrados')
+    print (Fore.LIGHTGREEN_EX + f'a area quadradra é: {tria}{unidade} quadrados')
 if cu == 2:
     print ('qual a base MAIOR do trapezio?')
     basemaior = int(input('>>>: '))
@@ -34,18 +35,18 @@ if cu == 2:
     trape1 = basemaior + basemenor
     trape2 = trape1 * altura
     trape3  = trape2 / 2
-    print (f'{trape3}{unidade}')
+    print (Fore.LIGHTGREEN_EX + f'{trape3}{unidade}')
 if cu == 3:
     print ('qual o raio do circulo')
     raio = int(input('>>>:'))
     print (f'ok o raio é {raio}')
     result = 3.14 * (raio * raio)
-    print (f'a area quadradra do circulo é: {result} quadrados')
+    print (Fore.LIGHTGREEN_EX + f'a area quadradra do circulo é: {result} quadrados')
 if cu == 4:
     print('me diga o raio maior da coroa')   
     R = int(input('>>>: '))
     print('me diga o raio menor da coroa')
     r = int(input('>>>'))
     resultado = 3.14 * ((R * R)-(r * r))
-    print (f'{resultado}')
+    print (Fore.LIGHTGREEN_EX + f'{resultado}{unidade}')
 #projeto matemática que tive ideia no meu colégio ainda kkkkkkk
